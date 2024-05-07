@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Chore-Dojo24</string>
+    <string name="MktBttn">Marketplace</string>
+    <string name="DshBttn">Dashboard</string>
+    <string name="PflBttn">Profile</string>
+    <string name="HusBttn">Household</string>
+    <string name="ChildBttn">Add Child</string>
+    <string name="AddChild">Child Name</string>
+    <string name="ChildList">Child List</string>
 </resources>
