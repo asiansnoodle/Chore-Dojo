@@ -7,4 +7,11 @@
     <string name="ChildBttn">Add Child</string>
     <string name="AddChild">Child Name</string>
     <string name="ChildList">Child List</string>
+    <string name="email">test</string>
+    <string name="password">test</string>
+    <string name="name">test</string>
+    <string name="accregister">test</string>
+    <string name="register_instructions">test</string>
+    <string name="username">test</string>
+    <string name="submit">test</string>
 </resources>

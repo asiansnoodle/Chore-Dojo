@@ -23,14 +23,20 @@ public class MainActivity extends ComponentActivity {
     private AssetManager assets;
     @Override
     public void onCreate(Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//        setContentView(R.layout.household);
+//        assets = getAssets();
+//        Toast.makeText(this, "Hello World", Toast.LENGTH_SHORT).show();
+//
+//
+//
+//        setupButtons();
+
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.household);
-        assets = getAssets();
-        Toast.makeText(this, "Hello World", Toast.LENGTH_SHORT).show();
-
-
-
-        setupButtons();
+        // setContentView(R.layout.household);  // Comment out or remove if not needed immediately
+        Intent intent = new Intent(MainActivity.this, RealLoginActivity.class);
+        startActivity(intent);
+        finish();
     }
 
     private void setupButtons() {
