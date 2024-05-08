@@ -95,8 +95,8 @@ public class HouseholdActivity extends ComponentActivity {
         marketButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Intent intent = new Intent(HouseholdActivity.this, MarketplaceActivity.class);
-                //startActivity(intent);
+                Intent intent = new Intent(HouseholdActivity.this, ParentMarketplaceActivity.class);
+                startActivity(intent);
             }
         });
 

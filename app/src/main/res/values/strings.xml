@@ -7,4 +7,11 @@
     <string name="ChildBttn">Add Child</string>
     <string name="AddChild">Child Name</string>
     <string name="ChildList">Child List</string>
+    <string name="parent_marketplace_title_txt">Marketplace Assignments:</string>
+    <string name="task_inp_txt">Task:</string>
+    <string name="reward_inp_txt">Reward:</string>
+    <string name="due_date_inp_txt">Due:</string>
+    <string name="btn_add_task_txt">Add Assignment</string>
+    <string name="task_remove_input_txt">Task:</string>
+    <string name="btn_remove_txt">Remove Assignment</string>
 </resources>
