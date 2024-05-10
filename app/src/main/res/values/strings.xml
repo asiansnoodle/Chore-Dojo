@@ -14,4 +14,11 @@
     <string name="btn_add_task_txt">Add Assignment</string>
     <string name="task_remove_input_txt">Task:</string>
     <string name="btn_remove_txt">Remove Assignment</string>
+    <string name="parentProfileTitle">Parent Profile</string>
+    <string name="momName">Marie (Mom)</string>
+    <string name="choreHistoryTitle">Chore History (children)</string>
+    <string name="choreHistory">Timmy:\n- Do dishes (COMPLETE - 2/25/24 6:45 PM)\n- Clean room (COMPLETE - 2/27/24 4:10 PM)\n- Sweep (COMPLETE - 2/28/24 7:25 PM)\n...\n\nAmelia:\n- Fold clothes (COMPLETE - 2/24/24 10:02 AM)\n- Organize pantry (COMPLETE - 2/25/24 5:22 PM)\n- Mop kitchen floor (COMPLETE - 2/28/24 3:24 PM)\n...</string>
+    <string name="changeEmail">Email: mariem1974@gmail.com</string>
+    <string name="changeInfo">Add Child\nChange Email\nChange Password</string>
+
 </resources>

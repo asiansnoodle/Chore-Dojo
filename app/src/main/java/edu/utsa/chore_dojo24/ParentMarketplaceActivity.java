@@ -99,8 +99,8 @@ public class ParentMarketplaceActivity extends ComponentActivity {
         profileButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Intent intent = new Intent(HouseholdActivity.this, ProfileActivity.class);
-                // startActivity(intent);
+                Intent intent = new Intent(ParentMarketplaceActivity.this, ProfileActivity.class);
+                startActivity(intent);
             }
         });
 

@@ -46,6 +46,13 @@
             android:label="@string/app_name"
             android:theme="@style/Theme.ChoreDojo24"/>
 
+        <activity
+            android:windowSoftInputMode="adjustPan"
+            android:name=".ProfileActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.ChoreDojo24"/>
+
     </application>
 
 </manifest>
