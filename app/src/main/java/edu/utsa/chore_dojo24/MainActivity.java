@@ -20,56 +20,45 @@ import java.util.ArrayList;
 
 public class MainActivity extends ComponentActivity {
 
-    private AssetManager assets;
+//    private AssetManager assets;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.household);
-        assets = getAssets();
+        // setContentView(R.layout.household);
+        setContentView(R.layout.dummy_login);
+//        assets = getAssets();
         Toast.makeText(this, "Hello World", Toast.LENGTH_SHORT).show();
 
-
-
         setupButtons();
+
+
     }
 
     private void setupButtons() {
-        Button profileButton = (Button) findViewById(R.id.Profile);
-        Button houseButton = (Button) findViewById(R.id.Household);
-        Button marketButton = (Button) findViewById(R.id.Marketplace);
-        Button dashButton = (Button) findViewById(R.id.Dashboard);
-
-        Button childButton = (Button) findViewById(R.id.ChildButton);
-
-        profileButton.setOnClickListener(new View.OnClickListener() {
+        Button loginButton = (Button) findViewById(R.id.login);
+        Button button_register = (Button) findViewById(R.id.register);
+//        Button marketButton = (Button) findViewById(R.id.Marketplace);
+//        Button dashButton = (Button) findViewById(R.id.Dashboard);
+//
+//        Button childButton = (Button) findViewById(R.id.ChildButton);
+//
+        loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                EditText uText = (EditText) findViewById(R.id.usernameInput);
+                EditText pText = (EditText) findViewById(R.id.passwordInput);
+
                 Intent intent = new Intent(MainActivity.this, ProfileActivity.class);
                 startActivity(intent);
             }
         });
 
-        houseButton.setOnClickListener(new View.OnClickListener() {
-            @Override
+        button_register.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v) {
-                 Intent intent = new Intent(MainActivity.this, HouseholdActivity.class);
-                 startActivity(intent);
-            }
-        });
-
-        marketButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, ParentMarketplaceActivity.class);
+                Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
                 startActivity(intent);
-            }
-        });
 
-        dashButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //Intent intent = new Intent(HouseholdActivity.this, DashboardActivity.class);
-                //startActivity(intent);
+
             }
         });
 
